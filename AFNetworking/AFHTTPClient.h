@@ -145,6 +145,8 @@ typedef enum {
 @property (nonatomic, assign) AFURLConnectionOperationSSLPinningMode defaultSSLPinningMode;
 #endif
 
+
+#define _AFNETWORKING_ALLOW_INVALID_SSL_CERTIFICATES_
 /**
  Whether each `AFHTTPRequestOperation` created by `HTTPRequestOperationWithRequest:success:failure:` should accept an invalid SSL certificate. 
  
